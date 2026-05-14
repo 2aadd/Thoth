@@ -3,7 +3,7 @@
 #  thoth — install script
 #
 #  Usage:
-#    curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/thoth/main/install.sh | bash
+#    curl -fsSL https://raw.githubusercontent.com/2aadd/thoth/main/install.sh | bash
 #    or: ./install.sh
 #
 #  What it does:
@@ -25,7 +25,7 @@ warn()    { echo -e "${YELLOW}  ⚠${RESET}  $*"; }
 die()     { echo -e "${RED}  ✖${RESET}  $*" >&2; exit 1; }
 
 # ─── Constants ───────────────────────────────────────────────────────────────
-REPO="https://raw.githubusercontent.com/YOUR_USERNAME/thoth/main"
+REPO="https://raw.githubusercontent.com/2aadd/thoth/main"
 INSTALL_DIR="/usr/local/bin"
 SCRIPT_NAME="thoth"
 SCRIPT_URL="${REPO}/thoth.py"
