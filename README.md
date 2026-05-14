@@ -9,10 +9,9 @@
 ## ⚡ Quick install (curl)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/thoth/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/2aadd/thoth/main/install.sh | bash
 ```
 
-> Replace `YOUR_USERNAME` with your GitHub username.
 
 After install, run from anywhere:
 
@@ -25,7 +24,7 @@ sudo thoth
 ## 📦 Manual install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/thoth.git
+git clone https://github.com/2aadd/thoth.git
 cd thoth
 chmod +x install.sh
 ./install.sh
